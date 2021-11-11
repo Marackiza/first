@@ -1,0 +1,24 @@
+{
+  "name": "tatiana/first",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Танчик",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "slim/slim":"4.*",
+    "slim/psr7": "1.3.0",
+    "ext-mysqli": "*",
+    "ext-sqlite3": "*",
+    "ext-sqlite": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "tatiana\\first\\": "src"
+    }
+  }
+}
